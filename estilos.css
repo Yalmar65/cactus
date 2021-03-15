@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    }
+    
+    body{
+        margin: 0;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #333;
+        overflow-x: hidden;
+    }
+    
+    .header{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        color: #fff;
+    }
+    
+    
+    
+    .header-video{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+    
+    .header-video video{
+        min-width: 100%;
+        min-height: 100%;
+    }
+    
+    .header-overlay{
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgba(79, 119, 206, 0.342);
+        z-index: 2;
+    }
+    
+    #titulo{
+        position: absolute;
+        top: 25pt;
+        left: 100pt;
+        text-align: left;
+        font-size: 12rem;
+        font-family: 'Bebas Neue', cursive;
+        z-index: 3;
+    }
+    #enlace1{
+        font-size: 2rem;
+        z-index: 3;
+        position:absolute;
+        top: 200pt;
+        left: 250pt;
+        text-align: left;
+        color: lightgray;
+        font-family: 'Work Sans', sans-serif;
+    }
+    #enlace2{
+        font-size: 2rem;
+        z-index: 3;
+        position:absolute;
+        top: 200pt;
+        left: 545pt;
+        text-align: left;
+        color: lightgray;
+        font-family: 'Work Sans', sans-serif;
+    }
+    #enlace3{
+        font-size: 2rem;
+        z-index: 3;
+        position:absolute;
+        top: 200pt;
+        right: 230pt;
+        text-align: left;
+        color: lightgray;
+        font-family: 'Work Sans', sans-serif;
+    }
+    #content{
+        z-index: 3;
+        font-size: 1.4rem;
+        font-family: 'Work Sans', sans-serif;
+        max-width: 30rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin: auto;
+        text-align: justify;
+        color: rgb(255, 255, 255);
+        justify-content: center;
+        position: absolute;
+        bottom: 70pt;
+        left: 20pt;
+    }
+    #content2{
+        z-index: 3;
+        font-size: 1.4rem;
+        font-family: 'Work Sans', sans-serif;
+        max-width: 30rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin: auto;
+        text-align: justify;
+        color: rgb(255, 255, 255);
+        justify-content: center;
+        position: absolute;
+        bottom: 70pt;
+        left: 460pt;
+    }
+    
+    .header-imagen1{
+        z-index: 2;
+        position: absolute;
+        bottom: 0pt;
+        right: 0pt;
+    }
+    .header-imagen2{
+        z-index: 2;
+        position: absolute;
+        bottom: 0pt;
+        right: 220pt;
+    }
+    
+    @media (max-width: 960px) {
+        .titulo{
+            
+            padding: 0 3rem 0 3rem;
+        } 
+    }
+    
